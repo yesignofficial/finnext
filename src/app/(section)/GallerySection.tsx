@@ -29,7 +29,7 @@ const GallerySection = () => {
   ];
 
   return (
-    <section className="bg-white py-16 lg:py-24">
+    <section className="h-full w-full bg-white py-16 lg:py-24">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="mb-16 text-center">

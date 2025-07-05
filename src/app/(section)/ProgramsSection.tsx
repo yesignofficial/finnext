@@ -21,7 +21,7 @@ const ProgramsSection = () => {
       image: "/images/home/program/hr.jpg",
       description:
         "Comprehensive human resources training with practical skills development and real-world applications.",
-      link: "/programs/hr-associate",
+      link: "/programs",
       level: "Intermediate",
       category: "Human Resources",
     },
@@ -31,7 +31,7 @@ const ProgramsSection = () => {
       image: "/images/home/program/business.jpg",
       description:
         "Advanced business analysis techniques with case studies and data-driven decision making.",
-      link: "/programs/business-analyst",
+      link: "/programs",
       level: "Advanced",
       category: "Business Analysis",
     },
@@ -41,7 +41,7 @@ const ProgramsSection = () => {
       image: "/images/home/program/expert.jpg",
       description:
         "Expert-level accounting principles for senior professionals with complex scenarios.",
-      link: "/programs/senior-accounting",
+      link: "/programs",
       level: "Expert",
       category: "Accounting",
     },
@@ -51,7 +51,7 @@ const ProgramsSection = () => {
       image: "/images/home/program/accounts.jpg",
       description:
         "Master Tally software with hands-on training and professional certification.",
-      link: "/programs/tally-certified",
+      link: "/programs",
       level: "Beginner",
       category: "Software Training",
     },
@@ -61,7 +61,7 @@ const ProgramsSection = () => {
       image: "/images/home/program/health.jpg",
       description:
         "Specialized accounting training for healthcare industry with compliance focus.",
-      link: "/programs/healthcare-accounting",
+      link: "/programs",
       level: "Intermediate",
       category: "Healthcare",
     },

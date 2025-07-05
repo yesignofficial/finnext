@@ -38,7 +38,7 @@ const PlacementSection = () => {
   ];
 
   return (
-    <section className="bg-gray-50 py-16 lg:py-24">
+    <section className="h-full w-full bg-gray-50 py-16 lg:py-24">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="mb-16 text-center">
