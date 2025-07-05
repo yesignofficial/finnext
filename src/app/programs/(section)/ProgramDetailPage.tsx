@@ -255,7 +255,7 @@ const ProgramDetailPage: React.FC = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-indigo-50">
+    <div className="min-h-screen w-full bg-gradient-to-br from-slate-50 via-white to-indigo-50">
       {/* Mobile-First Program Selection Header */}
       <div className="border-b bg-white shadow-sm">
         <div className="container mx-auto px-3 py-3 sm:px-4 sm:py-4">

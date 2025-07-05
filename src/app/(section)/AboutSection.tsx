@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const DirectionalAnimatedAboutSection: React.FC = () => {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-slate-50 via-white to-blue-50 py-16 lg:py-24">
+    <section className="relative h-full w-full overflow-hidden bg-gradient-to-br from-slate-50 via-white to-blue-50 py-16 lg:py-24">
       {/* Background Elements - Fade in from center */}
       <motion.div
         className="absolute inset-0"

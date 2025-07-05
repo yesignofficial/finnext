@@ -4,7 +4,7 @@ import React from "react";
 
 const SimpleAccountingHero = () => {
   return (
-    <section className="relative min-h-screen overflow-hidden bg-gradient-to-br from-indigo-900 via-slate-900 to-gray-900 pt-16 lg:pt-2">
+    <section className="relative min-h-screen w-full overflow-hidden bg-gradient-to-br from-indigo-900 via-slate-900 to-gray-900 pt-16 lg:pt-2">
       {/* Background Elements */}
       <div className="absolute inset-0">
         {/* Subtle Grid Pattern */}

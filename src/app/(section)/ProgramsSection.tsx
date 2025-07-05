@@ -83,7 +83,7 @@ const ProgramsSection = () => {
   };
 
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-slate-50 via-white to-indigo-50 py-16 lg:py-24">
+    <section className="relative h-full w-full overflow-hidden bg-gradient-to-br from-slate-50 via-white to-indigo-50 py-16 lg:py-24">
       {/* Background Elements */}
       <div className="absolute inset-0">
         {/* Floating Icons */}
