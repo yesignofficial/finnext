@@ -1,42 +1,81 @@
+// {
+//   "compilerOptions": {
+//     /* Base Options: */
+//     "esModuleInterop": true,
+//     "skipLibCheck": true,
+//     "target": "es2022",
+//     "allowJs": true,
+//     "resolveJsonModule": true,
+//     "moduleDetection": "force",
+//     "isolatedModules": true,
+
+//     /* Strictness */
+//     "strict": true,
+//     "noUncheckedIndexedAccess": true,
+//     "checkJs": true,
+
+//     /* Bundled projects */
+//     "lib": ["dom", "dom.iterable", "ES2022"],
+//     "noEmit": true,
+//     "module": "ESNext",
+//     "moduleResolution": "Bundler",
+//     "jsx": "preserve",
+//     "plugins": [{ "name": "next" }],
+//     "incremental": true,
+
+//     /* Path Aliases */
+//     "baseUrl": ".",
+//     "paths": {
+//       "@/*": ["./src/*"]
+//     }
+//   },
+//   "include": [
+//     ".eslintrc.cjs",
+//     "next-env.d.ts",
+//     "**/*.ts",
+//     "**/*.tsx",
+//     "**/*.cjs",
+//     "**/*.js",
+//     ".next/types/**/*.ts"
+//   ],
+//   "exclude": ["node_modules"]
+// }
+
 {
   "compilerOptions": {
-    /* Base Options: */
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "target": "es2022",
+    "lib": ["dom", "dom.iterable", "es6"],
     "allowJs": true,
-    "resolveJsonModule": true,
-    "moduleDetection": "force",
-    "isolatedModules": true,
-
-    /* Strictness */
+    "skipLibCheck": true,
     "strict": true,
-    "noUncheckedIndexedAccess": true,
-    "checkJs": true,
-
-    /* Bundled projects */
-    "lib": ["dom", "dom.iterable", "ES2022"],
     "noEmit": true,
-    "module": "ESNext",
-    "moduleResolution": "Bundler",
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
     "jsx": "preserve",
-    "plugins": [{ "name": "next" }],
     "incremental": true,
-
-    /* Path Aliases */
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
     }
   },
   "include": [
-    ".eslintrc.cjs",
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "**/*.cjs",
-    "**/*.js",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    "types/**/*.d.ts"
   ],
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules",
+    "public/sw.js",
+    "public/fallback-*.js",
+    "public/workbox-*.js"
+  ]
 }
